@@ -1,0 +1,45 @@
+WEB SERVER:
+  Web server is a computer service that servers resources (data) like webpage and handling HTTPs Requests from clients.
+
+1. We sending the request to the browser like www.facebook.com and the browser contacts the DNS server (Domain Name System). 
+2. Request to get the IP in DNS and Connecting to the Server, establish the server, web server receive the request and process it.
+3. Serving the Response
+
+Types of Web Servers:
+  1. Apache WebServer.
+  2. Nginx Web Server.
+  3. Microsoft IIS (Internet Information Services).
+  4. LiteSpeed Web Server.
+  5. Apache Tomcat Web Server.
+  6. NodeJS Web Server.
+  7. Lighttpd.
+  8. OpenLiteSpeed.
+  9. Jigsaw Server.
+  10.Sun Java System Web Server.
+
+
+DNS Server : Actually DNS Server can remember the IP address.
+
+IP Address:  It is a Unique Address on our System and it is used to communication for sending and receiving data.
+IPv4 is older version and octel and 4.3 billions addresss and IPv6 is newest version and Hexa and Trillion Address supported.
+
+1. Apache Server
+  It is an open source and free use
+  supports multiple platforms
+Each request have per each thread.
+
+2. Nginx
+   Nginx (pronounced “Engine-X”) is also an open-source web server but is designed for high performance and scalability.
+    Uses an event-driven, asynchronous architecture instead of Apache’s process/thread-based model.
+Event-Driven: It will not create new thread for each request.
+Asychrononous --> one single thread can handle multiple requests
+
+
+
+
+
+
+
+
+
+
