@@ -1,0 +1,40 @@
+Web Application:
+  A web application is a client–server software that users access via a web browser over the internet or intranet.
+
+Core Architecture:
+1. Presentation Layer  --> Frontend: React,Angular
+2. Application Layer  --> Backend/Server side: Java,Django
+3. Data Layer        --> Database: MySql, Oracle.
+
+Processing:
+User sends a request to server and server take the request and processing using through http and give the response to the user.
+
+Advantages: 
+  -> No Installation Required.
+  -> Accessible from anywhere
+  -> Easy to update
+  -> works on any OS with browser (Cross Platform)
+
+Disadvantages:
+    -> Requires internet connection
+    -> Slower than native apps for heavy tasks
+    -> Limited access to hardware features (camera, storage, etc.) --> This means we manually access to give for this, 
+but installed apps, automatically take the access.
+
+Desktop or Mobile Application: (Installed)
+  An installed application is a standalone software program that is downloaded and stored locally on a computer or mobile device.
+It directly interacts with the operating system (OS) and hardware to perform tasks — even without internet.
+
+standalone --> run by itself without using internet.
+
+
+
+
+
+
+
+
+
+
+
+
