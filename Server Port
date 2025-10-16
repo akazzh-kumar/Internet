@@ -1,0 +1,9 @@
+Server Port:
+  Server is a Computer or System, that provides services to another computers. 
+  It stores data, manages and  process the data
+
+  Port is like door number of the server.
+
+Why we use Port?
+  One server having multiple service were run, ports are used to identify which server user want, and they give the unique port number for each services.
+
