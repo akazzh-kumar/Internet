@@ -7,3 +7,14 @@ Server Port:
 Why we use Port?
   One server having multiple service were run, ports are used to identify which server user want, and they give the unique port number for each services.
 
+How to kill Ports?
+  List Open files Command
+  window:  netstat -ano | findstr :<port>
+  mac :  lsof -i: <port>
+
+  Kill Command
+  window: taskkill /PID <PID> /F
+  mac: kill -9 <PID>
+
+In windows, netstat is network statistical, it will display the active connections and listening ports, -a means all, -n means number format of the ports,
+-o means show PID and | is a pipeline, it will send the left output to the right command and findstr is filtering for our port only.
