@@ -1,0 +1,11 @@
+Mini Web Image Server:
+
+Required: node js http server, and ngrok
+  node js for creating a server and handle requests.
+  http server is used as a protocol for communication.
+  ngrok is used to give a public url for use everwhere. normally we use same system or connecting same network (locally), so this uses for public.
+
+steps:
+  1. Start the service.
+  2. ngrok http <port-number>
+  3. ngrok gives public url, copy and paste to the browswer, then we get response.
